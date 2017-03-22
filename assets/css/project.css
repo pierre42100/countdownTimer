@@ -1,0 +1,17 @@
+/**
+ * Project stylesheet
+ *
+ * @author Pierre HUBERT
+ */
+
+body {
+	background-color: black;
+	color: white;
+	font-family: Ubuntu, 'Segoe UI Light_', 'Open Sans Light', Verdana, Arial, Helvetica, sans-serif;
+}
+
+#countDownTimer {
+	text-align: center;
+	line-height: 10;
+	font-size: 500%;
+}

@@ -1,0 +1,33 @@
+<!-- 
+	Countdown timer project
+
+	@author Pierre HUBERT
+--><!DOCTYPE html>
+<html>
+	<head>
+		<!-- Page title -->
+		<title>Countdown timer</title>
+
+		<!-- Page libraries inclusion -->
+		<script src="assets/js/countdown.dev.js"></script>
+
+		<!-- Page configuration -->
+		<script>
+			//End of countdown timer
+			var endCountDownTimer = Math.floor(new Date().getTime()/1000)+3600*24*10;
+		</script>
+
+		<!-- Page stylesheet -->
+		<link rel="stylesheet" href="assets/css/project.css" />
+	</head>
+	<body>
+
+		<div id="countDownTimer"></div>
+
+		<!-- End page script initialization -->
+		<script>
+			//Launch countdown timer
+			countdownLibary.initializate("countDownTimer", endCountDownTimer);
+		</script>
+	</body>
+</html>
